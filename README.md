@@ -7,3 +7,5 @@ it mainly consists of html tag as root element, head tag, and body tag. title ta
 headings tag, h1 to h6.p tag, formatted tags, strong, em, sup, sub
 lists are blocks level elements,
 we have unordered list and ordered lists.
+tables to represent data in table format. it contains tr tag, th tag, td tag.
+anchor tags are used to vist another websites.
