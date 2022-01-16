@@ -8,4 +8,4 @@ headings tag, h1 to h6.p tag, formatted tags, strong, em, sup, sub
 lists are blocks level elements,
 we have unordered list and ordered lists.
 tables to represent data in table format. it contains tr tag, th tag, td tag.
-anchor tags are used to vist another websites.
+anchor tags are used to vist another websites. and images tags. we can use images as anchor tags by placing image tags in between anchor tags.
