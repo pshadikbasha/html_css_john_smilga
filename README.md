@@ -11,3 +11,7 @@ tables to represent data in table format. it contains tr tag, th tag, td tag.
 anchor tags are used to vist another websites. and images tags. we can use images as anchor tags by placing image tags in between anchor tags.
 
 id and classes: to style uniquely use id and to add same styles to multiple elements use class attribute.
+
+forms in html
+input type and radio type.
+input type list,

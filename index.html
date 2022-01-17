@@ -6,18 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="this is learning websiteg" />
     <title>Web Site</title>
-    <style>
-      #four {
-        color: red;
-      }
-      .five {
-        color: blue;
-      }
-    </style>
   </head>
   <body>
-    <!-- ids and classes -->
-    <h4 id="four">Heading four</h4>
-    <h5 class="five">heading five</h5>
+    <!-- forms -->
+    <form>
+      <input type="text" name="firstName" id="" placeholder="firstName" />
+      <br />
+      <input
+        type="radio"
+        checked
+        name="gender"
+        id=""
+        value="male"
+        title="gender"
+      />Male
+      <br />
+      <input
+        type="radio"
+        title="female"
+        name="gender"
+        id=""
+        value="female"
+      />Female
+      <select name="car" id="" title="car">
+        <option value="bmw">BMW</option>
+        <option value="audi">Audi</option>
+        <option value="tata">Tata</option>
+        <option value="tesla">Tesla</option>
+      </select>
+      <!-- data list input type -->
+      <input type="text" list="car" title="car" />
+      <datalist id="car">
+        <option value="bmw"></option>
+        <option value="Audi"></option>
+        <option value="tata"></option>
+      </datalist>
+    </form>
   </body>
 </html>
