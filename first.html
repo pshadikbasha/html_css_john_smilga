@@ -7,60 +7,38 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>heading one</h1>
-    <h2>heading two</h2>
-    <h3>heading three</h3>
-    <h4>heading four</h4>
-    <h5>heading five</h5>
-    <h6>heading six</h6>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ut consequuntur accusantium delectus ipsam deleniti vel voluptatem maxime dolores vero!</p>
-    <ol>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ol>
-    <ul>
-        <li>Shadik</li>
-        <li>basha</li>
-        <li>Tirupathih</li>
-        <li>helo</li>
-    </ul>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Place</th>
-            <th>Job</th>
-        </tr>
-        <tr>
-            <td>Shadik</td>
-            <td>Tirupathi</td>
-            <td>Software Engineer</td>
-        </tr>
-    </table>
-    <p>Lorem ipsum, dolor <strong>hello bold</strong> sit amet consectetur<em>italic ta</em> adipisicing  <sup>power</sup>elit. <sub>base</sub>Nostrum possimus error ipsum nulla ducimus officiis iste harum, odio delectus accusamus.</p>
-    <a href="#" target="_blank">Visit nothing</a>
-    <img src="" alt="alternative">
     <form>
-        <input type="text" name="firstName" id="" title="firstName" placeholder="firstName">
+        <label for="firstName">FirstName</label>
+        <input type="text" name="firstName" id="firstName" placeholder="First Name">
         <br>
-        <input type="radio" name="gender" id="" value="Male" title="Male">Male
+        <label for="lastName">LastName</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Last Name">
         <br>
-        <input type="radio" name="gender" id="" value="Female" title="Female">Female
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="password">
         <br>
-        <select name="car" id="" title="car">
-            <option value="">Select Car</option>
-            <option value="BMW">BMW</option>
-            <option value="Tesla">Tesla</option>
-            <option value="Audi">Audi</option>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"  placeholder="email">
+        <br>
+        <label for="gender">
+            Gender
+        </label>
+        <input type="radio" name="gender" title="gender" value="Male" checked>Male
+        <input type="radio" name="gender" title="gender" value="Female" >Female
+        <br>
+        <textarea name="comments" id="" cols="30" rows="10" title="comments"></textarea>
+        <br>
+        <label for="programming">Programming</label>
+        <select name="programming" id="programmming" title="programming">
+            <option value="Html">Html</option>
+            <option value="css">Css</option>
+            <option value="Javascript">Javascript</option>
         </select>
-        <input type="text" list="cars" title="cars">
-        <datalist id="cars">
-            <option value="BMW"></option>
-            <option value="Tesla"></option>
-            <option value="Audi"></option>
-        </datalist>
-        <button type="submit">Submit</button>
-
+        <br>
+        <input type="checkbox" name="married" id="" value="married" title="Married">Married
+        <input type="checkbox" name="married" id="" value="not-married" title="Not Married">Not-Married
+        <br>
+        <input type="submit" value="Submit">
 
     </form>
 </body>
