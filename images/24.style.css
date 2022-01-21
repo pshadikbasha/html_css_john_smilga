@@ -1,0 +1,21 @@
+/* provide padding and margin */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Sports/Movies Section */
+.sports,
+.movies {
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #777;
+  color: #fff;
+}
+
+.sports h3,
+.movies h3 {
+  padding: 10px;
+}

@@ -1,0 +1,4 @@
+/* insert an image, remove the repeat if necessary, make it cover the viewport, and fix it relative to scroll */
+body {
+  background: url("/art.jpg") fixed right;
+}

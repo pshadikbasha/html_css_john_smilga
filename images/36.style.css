@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  margin: 40px;
+  box-shadow: 5px 5px 3px lawngreen;
+}
+
+/* Link State */
+a:link {
+  color: lawngreen;
+}
+
+/* visited */
+a:visited {
+  color: rgb(236, 41, 41);
+}
+
+/* hover */
+a:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+/* active */
+a:active {
+  box-shadow: 2px 2px 3px lawngreen;
+}

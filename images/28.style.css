@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section p {
+  margin: 40px;
+  padding: 20px 40px;
+  border: 4px dashed lawngreen;
+  width: 300px;
+}

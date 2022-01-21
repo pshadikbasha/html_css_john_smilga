@@ -1,0 +1,15 @@
+/* section {
+  position: relative;
+}
+
+img {
+  position: absolute;
+  z-index: -1;
+} */
+
+p.sticky {
+  position: sticky;
+  top: 100px;
+  background-color: lawngreen;
+  font-weight: bold;
+}

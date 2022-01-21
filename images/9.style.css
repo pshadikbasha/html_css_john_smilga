@@ -1,0 +1,14 @@
+/* give the section and each of its children different colors of your choice for text and background. 
+*/
+
+section {
+  background-color: hsl(289, 95%, 74%);
+}
+
+section h1 {
+  color: rgb(28, 136, 82);
+}
+
+section p {
+  background-color: #22ccff;
+}

@@ -1,0 +1,18 @@
+/* style the elements by their name, class, id and group them as well. */
+body {
+  background-color: brown;
+}
+
+#main-heading {
+  text-transform: uppercase;
+}
+
+#main-heading,
+.para,
+a {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}

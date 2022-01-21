@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 4px;
+  font-weight: 200;
+  transition: all 0.3s ease-out;
+}
+
+ul li a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Section */
+/* section {
+  position: relative;
+}
+
+img {
+  position: absolute;
+  z-index: -1;
+} */

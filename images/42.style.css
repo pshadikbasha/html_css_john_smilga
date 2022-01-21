@@ -1,0 +1,16 @@
+ol {
+  background-color: hsl(69, 79%, 15%);
+  padding: 20px;
+  width: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+ol li {
+  list-style: none;
+  padding: 6px;
+  margin: 4px;
+  background-color: rgb(83, 105, 46);
+  color: #fff;
+  text-align: center;
+}

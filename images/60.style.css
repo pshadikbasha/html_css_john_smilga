@@ -1,0 +1,13 @@
+/* Tweak the content for different overflow values and choose one that suits the best */
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(65, 129, 0);
+  color: #fff;
+}
+
+p {
+  height: 150px;
+  overflow: auto;
+}

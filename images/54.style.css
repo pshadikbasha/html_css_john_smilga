@@ -1,0 +1,12 @@
+/* Set smaller dimensions for the pic and apply fixed position. the p tag should be default position */
+img {
+  position: fixed;
+  width: 200px;
+  margin-top: -200px;
+}
+
+p {
+  margin-top: 200px;
+  margin-bottom: 2000px;
+  margin-left: 250px;
+}

@@ -1,0 +1,11 @@
+p {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+i {
+  font-size: 500px;
+  /* font-weight: 100; */
+}

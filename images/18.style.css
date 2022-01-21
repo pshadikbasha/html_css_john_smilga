@@ -1,0 +1,9 @@
+/* insert an image and give it colored borders */
+section {
+  height: 550px;
+  background-image: url("/hiking.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: darkolivegreen solid 5px;
+  border-radius: 10px;
+}

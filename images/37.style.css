@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  padding: 7px 10px;
+  margin: 15px;
+  color: #f6e0b5;
+  background-color: #66545e;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+}
+
+a:hover,
+a:active {
+  color: #fff;
+  background-color: #a39193;
+}
