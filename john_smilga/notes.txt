@@ -1,0 +1,2 @@
+html stands for hyper text markup language.
+html root element, head tag, body tag and headings.
